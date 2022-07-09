@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  font-family: Verdana;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+button {
+  font-size: 2rem;
+  min-width: 100px;
+  min-height: 100px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: 200ms;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+button:active {
+  background: rgba(0, 0, 0, 0.4);
+}
