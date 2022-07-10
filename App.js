@@ -1,5 +1,5 @@
-import "./styles.css";
-import Counter from "./session01/Counter";
+import "./src/styles.css";
+import Counter from "./src/session01/counter"
 
 export default function App() {
   return (
